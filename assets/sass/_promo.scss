@@ -1,0 +1,96 @@
+/* Promo Начало*/
+.promo {
+
+    h1 {
+        font-size: 48px;
+        line-height: 120%;
+        font-weight: 800;
+        margin-bottom: 28px;
+
+        span {
+            color: #FFA239;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 32px;
+        }
+    }
+
+    .promo__list {
+        @media screen and (max-width: 768px) {
+            margin-top: 310px;
+        }
+
+        @media screen and (max-width: 99999px) {
+            margin-top: 310px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            margin-top: 0px;
+        }
+    }
+
+    .promo__list li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+
+
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+    }
+
+    .promo-bg {
+        @media screen and (max-width: 99999px) {
+            height: 628px;
+            background: url(../public/Background.svg) center no-repeat;
+            background-size: contain;
+        }
+
+        @media screen and (max-width: 768px) {
+            height: auto;
+            background: none;
+        }
+
+        @media screen and (max-width: 991px) {
+            height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            height: none;
+        }
+
+        .promo-bg-md {
+            display: none;
+            width: 100%;
+
+            @media screen and (max-width: 768px) {
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        p {
+            @media screen and (max-width: 991px) {
+                margin-bottom: 285px;
+            }
+
+            @media screen and (max-width: 768px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+/* Promo Конец*/

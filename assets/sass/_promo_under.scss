@@ -1,0 +1,133 @@
+/* Promo under Начало*/
+.promo__under {
+    margin-top: 79px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .promo__under_list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 18.5px;
+
+        @media (max-width: 991.98px) {
+            margin-top: 0px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 10px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38px;
+
+            @media (max-width: 991.98px) {
+                font-size: 28px;
+                margin-bottom: 18px;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+
+            @media screen and (max-width: 576px) {
+                display: none;
+            }
+
+        }
+
+        span {
+            color: #FFA239;
+        }
+    }
+}
+
+
+
+.box {
+    width: 501px;
+    height: 261px;
+    border-radius: 40px;
+    box-shadow: var(--box-shadow);
+    margin-left: 4%;
+
+    @media (max-width: 991.98px) {
+        height: 230px;
+        left: 47%;
+        width: 360px;
+    }
+
+    @media (max-width: 768px) {
+        height: 200px;
+        padding: 25px;
+        width: 375px;
+    }
+
+    @media (max-width: 576px) {
+        margin-left: 0;
+    }
+
+
+
+    .box__www {
+        margin: 40px 40px;
+
+        @media (max-width: 991px) {
+            margin: 10px 10px;
+        }
+
+        @media (max-width: 768px) {
+            margin: -15px -15px;
+            height: 60px;
+        }
+    }
+
+    .box__www_text {
+        margin-left: 52px;
+        margin-top: -90px;
+        font-size: 20px;
+
+        @media (max-width: 991px) {
+            margin-left: 21px;
+            margin-top: -60px;
+            font-size: 20px;
+        }
+
+        @media (max-width: 768px) {
+            margin: -29px -6px;
+            font-size: 16px;
+        }
+    }
+
+    .box__text {
+        margin-left: 40px;
+        margin-top: 54px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+
+        @media (max-width: 991px) {
+            margin-top: 40px;
+            margin-left: 12px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 57px;
+            margin-left: -10px;
+            font-size: 16px;
+        }
+    }
+}
+
+/* Promo under Конец*/

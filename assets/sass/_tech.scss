@@ -1,0 +1,49 @@
+/* Tech Начало*/
+.tech {
+    margin-bottom: 94px;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .row {
+        row-gap: 24px;
+
+        @media screen and (max-width: 576px) {
+            row-gap: 10px;
+        }
+        .col-6{
+            padding: 0 5px;
+        }
+    }
+
+    .tech__card {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        text-align: center;
+        padding: 55px 24px 24px;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: var(--box-shadow);
+
+        // @media screen and (max-width: 991px) {
+        //     margin-bottom: 44px;
+        // }
+    }
+
+    .tech__card-name {
+        font-size: 18px;
+        color: #8A99A8;
+    }
+}
+
+
+/* Tech Конец*/

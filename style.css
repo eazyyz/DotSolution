@@ -1,0 +1,291 @@
+  
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+    color: #0C2836;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+    --dark: #0C2836;
+}
+
+/* Header Начало */
+nav {
+    display: flex;
+    margin-bottom: 72px;
+}
+
+.navigation__wrap {
+    display: flex;
+}
+
+/* Header Конец */
+/* Promo Начало*/
+.promo h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.promo-bg p {
+    margin-bottom: 262px;
+}
+
+.promo h1 span {
+    color: #FFA239;
+}
+
+.promo-bg {
+    background: url("public/background.png") center no-repeat;
+    height: 628px;
+}
+
+.promo__list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.promo__list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Promo Конец*/
+/* Promo under Начало*/
+.promo__under {
+    margin-top: 79px;
+    margin-left: 203px;
+    display: flex;
+}
+
+.promo__under_list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.promo__under_list span {
+    color: #FFA239;
+}
+
+.promo__under_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 18.5px;
+}
+
+.box {
+    width: 501px;
+    height: 261px;
+    border-radius: 40px;
+    box-shadow: var(--box-shadow);
+    margin-left: 42px;
+}
+
+.box__www {
+    margin: 40px 40px;
+}
+
+.box__www_text {
+    margin-left: 52px;
+    margin-top: -90px;
+    font-size: 20px;
+
+}
+
+.box__text {
+    margin-left: 40px;
+    margin-top: 54px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* Promo under Конец*/
+/* Project Начало*/
+.projects {
+    margin-bottom: 100px;
+}
+
+.projects h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    margin-bottom: 40px;
+}
+
+.projects .projects__card img {
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+.projects .projects__card a {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFA239;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+/* Project Конец*/
+/* Tech Начало*/
+.tech {
+    margin-bottom: 94px;
+}
+
+.tech h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tech .row {
+    row-gap: 24px;
+}
+
+.tech__card {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
+    padding: 55px 24px 24px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.tech__card-name {
+    font-size: 18px;
+    color: #8A99A8;
+}
+
+/* Tech Конец*/
+
+/* Feedback Начало*/
+.feedback {
+    margin-bottom: 100px;
+}
+
+.feedback__text {
+    margin-right: 37px;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedback__text h2 {
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+.feedback__text p {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.form {
+    background: white;
+    box-shadow: var(--box-shadow);
+    padding: 24px;
+    border-radius: 15px;
+}
+
+.form label {
+    display: block;
+}
+
+.form textarea,
+.form input {
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid #D9E2EB;
+    border-radius: 10px;
+    min-height: 40px;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+}
+
+.form textarea::placeholder,
+.form input::placeholder {
+    color: #8A99A8;
+}
+
+.form__group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.button-primary {
+    padding: 9px 60px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, #FB8501 -0.07%, #FFB703 100%);
+    transition: all 250ms;
+}
+
+.button-primary:focus {
+    transform: scale(0.95);
+}
+
+.button-primary:hover {
+    box-shadow: 0 0 10px 0 #FFB003;
+}
+
+/* Feedback Конец*/
+/* Footer Начало*/
+
+.footer__top {
+    margin-bottom: 74px;
+}
+
+.footer__links {
+    text-align: center;
+}
+
+.footer__links-item-link {
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.footer__info {
+    text-align: right;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+/* Footer Конец*/

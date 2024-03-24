@@ -1,0 +1,21 @@
+/* Header Начало */
+nav {
+    display: flex;
+    margin-bottom: 72px;
+
+    @media screen and (max-width: 576px) {
+        padding-top: 10px;
+    }
+}
+
+.navigation__wrap {
+    display: flex;
+
+    img {
+        @media screen and (max-width: 576px) {
+            width: 75px;
+        }
+    }
+}
+
+/* Header Конец */
